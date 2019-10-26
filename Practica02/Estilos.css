@@ -1,19 +1,28 @@
 
 body{
-    border: solid black 1px;
+    background-color: #80f0d7;
     max-width: 960px;
     max-height: 640px;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    background: dimgrey;
 }
 .BarraBusqueda{
 
     width: 820px;
     text-align: right;
 }
-.nav{
-    border-block: 10px;
-    border-block-color: rgb(128, 128, 4);
+* nav{
+    border: solid black 1px;
+    border-radius: 2em;
+	width: 20%;
+}
+
+.Cabecera img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
