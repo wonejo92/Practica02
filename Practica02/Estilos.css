@@ -1,21 +1,16 @@
 
 body{
-    background-color: #80f0d7;
-    max-width: 960px;
-    max-height: 640px;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #B22222;
 }
-.BarraBusqueda{
 
-    width: 820px;
-    text-align: right;
-}
-* nav{
+.menu{
     border: solid black 1px;
     border-radius: 2em;
-	width: 20%;
+    width: 20%;
+    background-color: #dfeba3;
+}
+.menu p{
+    text-align: center;
 }
 
 .Cabecera img{
@@ -25,4 +20,34 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+}
+.Contenido{
+    border:solid black ;
+    float: left;
+    margin-left: 280px;
+    width: 70%;
+    background: tomato;
+}
+.lista li{
+    text-decoration: none;
+    width: 85%;
+    margin-top: 5px;
+    margin-left: -10%;
+    display: block;
+    height: 30px;
+    background: #F7F5F2;
+    font-size: 18px;
+    padding: 0 0 0 5px;
+    border-left: 15px solid #7de93e
+}
+
+.pmenu{
+    text-align: center;
+}
+.piePagina{ 
+    text-align: center;
+    background-color: #dfeba3;
+    background: ;   
+    margin-top: 15px;
+    clear: both;
 }
