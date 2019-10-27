@@ -1,0 +1,102 @@
+/* NEUTRALIDAD*/
+ASIDE,article,section,nav,header,footer{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background: #fff;
+}
+body{
+    background:#ff6;
+}
+
+p,h1,h2,h3{
+    margin: 0;
+    padding: 0;
+}
+
+/* ESTILO*/
+
+h1{
+    color: #593939;
+    font-size: 2.2em;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    font-size: 1.8em;
+    text-align: center;
+}
+h3{
+    color: #f2e3b6;
+    font-size: 8em;
+    text-align: center;
+}
+/* ESTRUCTURAL */
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    height: 90px;
+    background: #e5cba2;
+}
+
+#Cizquierda{
+    height: 100%;
+    background: #AB8A6C;
+    width: 20%;
+    float: left;
+}
+#Ccentral{
+    height: 100%;
+    background: #ccb18e;
+    width: 60%;
+    float: left;
+}
+#Cderecha{
+    height: 100%;
+    background: #AB8A6C;
+    width: 20%;
+    float: left;
+}
+footer{
+    height: 60px;
+    clear: both;
+    background: #593939;
+}
+p{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    line-height: 1.4em;
+}
+.lista li{
+    text-decoration: none;
+    width: 85%;
+    margin-top: 5px;
+    margin-left: -10%;
+    display: block;
+    height: 30px;
+    background: #F7F5F2;
+    font-size: 18px;
+    padding: 0 0 0 5px;
+    border-left: 15px solid #7de93e
+}
+.menu{
+    border: solid black 1px;
+    border-radius: 2em;
+    width: 98%;
+    background-color: #dfeba3;
+}
+.menu p{
+    text-align: center;
+}
